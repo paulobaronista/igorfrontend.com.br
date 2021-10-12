@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #382a74;
+}
+
+.menu-mercosul {
+    background-color: #382a74;
+    border-color: none;
+    min-height: auto;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+
+.menu-mercosul .navbar-brand {
+    height: auto;
+    padding: 12px 0px 15px 0px;
+    margin: 0px -15px 0px 0px;
+}
+
+.navbar-mercosul {
+    margin: 42px 0px 5px 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.img-cartao {
+    margin: 0px 0px 0px 234px;
+    width: 684px;
+    height: 544px;
+}
+
+.cartao-box {
+    background-color: white;
+    width: 684px;
+    height: 544px;
+}
+
+.cartao-box .cartao-titulo {
+    color: #40347b;
+    margin: 90px 0px 0px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.cartao-box .cartao-subtitulo {
+    color: #40347b;
+    margin: 5px 0px 0px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.cartao-box .cartao-texto {
+    color: #3e3277;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 75px 0px 50px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.saiba-mais {
+    color: #40347b;
+    margin: 0px 0px 0px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cartao-box .saiba-mais{
+    position: relative;
+    bottom: 0px;
+    top: 60px;
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .menu-mercosul {
+        
+    }
+    .menu-mercosul .navbar-brand {
+        padding: 10px 0px 10px 10px;
+    }
+    .menu-mercosul .navbar-brand .img-responsive {
+        width: 60%;
+    }
+    .iphone-custom {
+        width: 20%;
+        position:relative; 
+        left:487px; 
+        bottom:115px;
+        z-index: 2;
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .menu-mercosul .navbar-brand {
+        padding: 10px 0px 0px 0px;
+    }
+    .menu-mercosul .navbar-brand .img-responsive {
+        width: 60%;
+        margin: 5px -6px 0px 0px;
+    }
+    .navbar-mercosul{
+        margin: 25px 0px 17px 0px
+    }
+    
+    .iphone-custom {
+        width: 20%;
+        position:relative; 
+        left:520px; 
+        bottom:120px;
+        z-index: 2;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .menu-mercosul .navbar-brand .img-responsive {
+        width: 80%;
+    }
+    .navbar-mercosul{
+        margin: 42px 50px 5px 0px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        font-size: 20px;
+    }
+    .iphone-custom {
+        width: 20%;
+        position:relative; 
+        left:715px; 
+        bottom:165px;
+        z-index: 2;
+    }
+}
+
+/* Large */
+@media(min-width:1200px) {
+    .menu-mercosul {
+        
+    }
+    
+    .navbar-mercosul{
+        margin: 50px 0px 5px 0px;
+    }
+    
+    .navbar-default .navbar-nav>li>a{
+        font-size: 20px;
+    }
+   
+    .iphone-custom {
+        width: auto;
+        position:relative; 
+        left:1180px; 
+        bottom:210px;
+        z-index: 2;
+    }
+
+}
