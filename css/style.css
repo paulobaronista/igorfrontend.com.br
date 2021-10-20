@@ -26,57 +26,6 @@ body {
     color: white;
 }
 
-.img-cartao {
-    margin: 0px 0px 0px 234px;
-    width: 684px;
-    height: 544px;
-}
-
-.cartao-box {
-    background-color: white;
-    width: 684px;
-    height: 544px;
-}
-
-.cartao-box .cartao-titulo {
-    color: #40347b;
-    margin: 90px 0px 0px 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-}
-
-.cartao-box .cartao-subtitulo {
-    color: #40347b;
-    margin: 5px 0px 0px 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-}
-
-.cartao-box .cartao-texto {
-    color: #3e3277;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    margin: 40px 75px 0px 50px;
-    font-weight: 400;
-    text-align: left;
-}
-
-.saiba-mais {
-    color: #40347b;
-    margin: 0px 0px 0px 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.cartao-box .saiba-mais{
-    position: relative;
-    bottom: 0px;
-    top: 60px;
-}
-
 /* Extra Small */
 @media(max-width:767px) {
     .menu-mercosul {
@@ -88,12 +37,74 @@ body {
     .menu-mercosul .navbar-brand .img-responsive {
         width: 60%;
     }
+    
     .iphone-custom {
-        width: 20%;
+        width: auto;
         position:relative; 
-        left:487px; 
-        bottom:115px;
-        z-index: 2;
+        left:0px; 
+        bottom:35px;
+        z-index: 1;
+    }
+
+    .img-cartao {
+        margin: 0px 0px 0px 235px;
+        width: 682px;
+        height: 543px;
+    }
+
+    .img-maquina {
+        margin: 0px 0px 0px -15px;
+        width: 682px;
+        height: 543px;
+    }
+    
+    .cartao-box {
+        background-color: white;
+        width: 682px;
+        height: 543px;
+    }
+
+    .cartao-box .cartao-titulo {
+        color: #40347b;
+        margin: 90px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .cartao-box .cartao-subtitulo {
+        color: #40347b;
+        margin: 5px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    
+    .cartao-box .cartao-texto {
+        color: #3e3277;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin: 40px 75px 0px 50px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .margin-box {
+        margin: 0px 0px 0px 250px;
+    }
+
+    .saiba-mais {
+        color: #40347b;
+        margin: 0px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .cartao-box .saiba-mais{
+        position: relative;
+        bottom: 0px;
+        top: 60px;
     }
 }
 
@@ -111,11 +122,72 @@ body {
     }
     
     .iphone-custom {
-        width: 20%;
+        width: auto;
         position:relative; 
-        left:520px; 
-        bottom:120px;
-        z-index: 2;
+        left:0px; 
+        bottom:35px;
+        z-index: 1;
+    }
+
+    .img-cartao {
+        margin: 0px 0px 0px 235px;
+        width: 685px;
+        height: 543px;
+    }
+
+    .img-maquina {
+        margin: 0px 0px 0px -15px;
+        width: 682px;
+        height: 543px;
+    }
+    
+    .cartao-box {
+        background-color: white;
+        width: 682px;
+        height: 543px;
+    }
+
+    .cartao-box .cartao-titulo {
+        color: #40347b;
+        margin: 90px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .cartao-box .cartao-subtitulo {
+        color: #40347b;
+        margin: 5px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    
+    .cartao-box .cartao-texto {
+        color: #3e3277;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin: 40px 75px 0px 50px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .margin-box {
+        margin: 0px 0px 0px 250px;
+    }
+
+    .saiba-mais {
+        color: #40347b;
+        margin: 0px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .cartao-box .saiba-mais{
+        position: relative;
+        bottom: 0px;
+        top: 60px;
     }
 }
 
@@ -124,18 +196,87 @@ body {
     .menu-mercosul .navbar-brand .img-responsive {
         width: 80%;
     }
+    
     .navbar-mercosul{
         margin: 42px 50px 5px 0px;
     }
+    
     .navbar-default .navbar-nav>li>a{
         font-size: 20px;
     }
+    
+    .container-margin-custom{
+        margin: 0px -21px 0px 21px;
+    }
+
     .iphone-custom {
-        width: 20%;
+        width: auto;
         position:relative; 
-        left:715px; 
-        bottom:165px;
-        z-index: 2;
+        left:0px; 
+        bottom:35px;
+        z-index: 1;
+    }
+
+    .img-cartao {
+        margin: -28px 0px 0px -8px;
+        width: 685px;
+        height: 546px;
+    }
+
+    .img-maquina {
+        margin: 0px 0px 0px -15px;
+        width: 682px;
+        height: 543px;
+    }
+    
+    .cartao-box {
+        background-color: white;
+        width: 561px;
+        height: 544px;
+        margin: -26px 0px 0px -23px;
+    }
+
+    .cartao-box .cartao-titulo {
+        color: #40347b;
+        margin: 90px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 45px;
+    }
+    
+    .cartao-box .cartao-subtitulo {
+        color: #40347b;
+        margin: 5px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+    .cartao-box .cartao-texto {
+        color: #3e3277;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin: 40px 75px 0px 50px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .margin-box {
+        margin: 0px 0px 0px 7px;
+    }
+
+    .saiba-mais {
+        color: #40347b;
+        margin: 0px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .cartao-box .saiba-mais{
+        position: relative;
+        bottom: 0px;
+        top: 25px;
     }
 }
 
@@ -156,9 +297,121 @@ body {
     .iphone-custom {
         width: auto;
         position:relative; 
-        left:1180px; 
-        bottom:210px;
-        z-index: 2;
+        left:0px; 
+        bottom:35px;
+        z-index: 1;
     }
 
+    .img-cartao {
+        margin: 0px 0px 0px 235px;
+        width: 685px;
+        height: 543px;
+    }
+
+    .img-maquina {
+        margin: 0px 0px 0px -15px;
+        width: 682px;
+        height: 543px;
+    }
+    
+    .cartao-box {
+        background-color: white;
+        width: 682px;
+        height: 543px;
+    }
+
+    .cartao-box .cartao-titulo {
+        color: #40347b;
+        margin: 90px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .cartao-box .cartao-subtitulo {
+        color: #40347b;
+        margin: 5px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    
+    .cartao-box .cartao-texto {
+        color: #3e3277;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin: 40px 75px 0px 50px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .margin-box {
+        margin: 0px 0px 0px 250px;
+    }
+
+    .saiba-mais {
+        color: #40347b;
+        margin: 0px 0px 0px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .cartao-box .saiba-mais{
+        position: relative;
+        bottom: 0px;
+        top: 60px;
+    }
+    
+    .rodape-mercosulbank{
+        color: white;
+        font-size: 24px;
+        margin: 50px 0px 0px -190px;
+    }
+
+    .rodape-faleconosco{
+        color: white;
+        font-size: 24px;
+        margin: 50px 0px 0px -210px;
+    }
+
+    .rodape-baixeoapp{
+        color: white;
+        font-size: 24px;
+        margin: 50px 0px 0px -80px;
+    }
+
+    .rodape-text-mercosulbank{
+        color: white;
+        font-size: 19px;
+        margin: 15px 0px 0px -45px;
+        text-align: left;
+        line-height: 2.0;
+        font-weight: 300;
+    }
+
+    .rodape-text-faleconosco{
+        color: white;
+        font-size: 15px;
+        margin: 15px 0px 0px -45px;
+        text-align: left;
+        line-height: 2.0;
+        font-weight: 300;
+    }
+
+    .buttons-rodape{
+        margin: 25px 45px 0px 0px;
+    }
+    
+    .rodape-politicas{
+        color: white;
+        font-size: 21px;
+        margin: 140px 0px 0px 0px;
+    }
+
+    .rodape-politicas2{
+        color: white;
+        font-size: 21px;
+        margin: 0px 5px 0px 0px;
+    }
 }
