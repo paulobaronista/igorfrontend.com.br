@@ -414,4 +414,18 @@ body {
         font-size: 21px;
         margin: 0px 5px 0px 0px;
     }
+
+    .rodape-endereco{   
+        color: white;
+        font-size: 19px;
+        margin: 63px 0px 0px -50px;
+    }
+
+    .rodape-logo{
+        width: 295px;
+    }
+
+    .rodape-logo-endereco{
+        margin: 0px 0px 20px 265px;
+    }
 }
