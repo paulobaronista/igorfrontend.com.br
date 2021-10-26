@@ -399,6 +399,15 @@ body {
         font-weight: 300;
     }
 
+    .icones-rodape{
+        margin: 0px 10px 0px 0px;
+        width: 35px;
+    }
+
+    .div-icones{
+        margin: 15px 0px 0px -165px;
+    }
+
     .buttons-rodape{
         margin: 25px 45px 0px 0px;
     }
