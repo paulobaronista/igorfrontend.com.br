@@ -3,6 +3,16 @@ body {
     background-color: #382a74;
 }
 
+.padding-off{
+    padding: 0;
+}
+
+#linha {
+    height: 25px;
+    margin-top: 10px;
+    border-right: 2px solid white;
+}
+
 .menu-mercosul {
     background-color: #382a74;
     border-color: none;
@@ -26,6 +36,173 @@ body {
     color: white;
 }
 
+.banco{
+    position: relative;
+}
+
+.banco .pessoa-fisica{
+    max-width: 19%;
+    position: absolute;
+    z-index: 100;
+    top: 85%;
+    right: 30%;
+}
+
+.banco .pessoa-juridica{
+    max-width: 20%;
+    position: absolute;
+    z-index: 100;
+    top: 85%;
+    right: 8%;
+}
+
+.faixa{
+    position: relative;
+}
+
+.faixa .iphone{
+    max-width: 25%;
+    position: absolute;
+    z-index: 100;
+    top: -50%;
+    right: 8%;
+}
+
+#linha-info1 {
+    height: 13%;
+    left: 7%;
+    top: 95%;
+    border-right: 7px solid #7a5ff1;
+    position: absolute;
+    z-index: 1;
+}
+
+#linha-info2 {
+    height: 13%;
+    left: 11%;
+    bottom: 92%;
+    border-right: 7px solid #7a5ff1;
+    position: absolute;
+    z-index: 1;
+}
+
+.infos{
+    padding-top: 65px;
+    padding-left: 50px;
+}
+
+.infos h1{
+    color: #40347b;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.infos h2{
+    color: #40347b;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.infos p{
+    color: #40347b;
+    font-size: 23px;
+    line-height: 35px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.infos a{
+    color: #40347b;
+    font-size: 20px;
+}
+
+.rodape{
+    background-image: url('../images/bg.png');
+    background-color: #3a3260;
+    background-size: cover;
+}
+
+.rodape h1{
+    font-size: 22px;
+    color: white;
+    line-height: 35px;
+}
+
+.rodape-menu{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.rodape-menu a{
+    font-size: 18px;
+    color: white;
+    line-height: 35px;
+}
+
+.rodape-contato{
+    padding-top: 19px;
+    padding-left: 30px;
+}
+
+.rodape-contato p{
+    color: white;
+    padding-bottom: 23px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.baixe-app{
+    padding-left: 45px;
+    padding-top:20px;
+}
+
+.baixe-app h1{
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+.baixe-app img{
+    padding-bottom: 28px;
+}
+
+.rodape-politicas{
+    padding-top: 108px;
+    padding-left: 0px;
+}
+
+.rodape-politicas h1{
+    font-size: 21px;
+}
+
+.rodape-politicas p{
+    color: white;
+    margin-left: 60px;
+    line-height: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.rodape-politicas img{
+    margin-left: 115px;
+    padding-top: 15px;
+}
+
+.rodape-logo{
+    padding-bottom: 15px;
+}
+
+.rodape-endereco{
+    padding-top: 68px;
+    padding-left: 0px;
+    margin-left: -60px;
+}
+
+.rodape-endereco p{
+    color: white;
+    font-size: 15px;
+}
+
 /* Extra Small */
 @media(max-width:767px) {
     .menu-mercosul {
@@ -36,75 +213,133 @@ body {
     }
     .menu-mercosul .navbar-brand .img-responsive {
         width: 60%;
+        margin: 0px 0px 0px -6px
     }
     
-    .iphone-custom {
-        width: auto;
-        position:relative; 
-        left:0px; 
-        bottom:35px;
-        z-index: 1;
-    }
-
-    .img-cartao {
-        margin: 0px 0px 0px 235px;
-        width: 682px;
-        height: 543px;
-    }
-
-    .img-maquina {
-        margin: 0px 0px 0px -15px;
-        width: 682px;
-        height: 543px;
+    .banco .pessoa-fisica{
+        max-width: 25%;
     }
     
-    .cartao-box {
-        background-color: white;
-        width: 682px;
-        height: 543px;
-    }
-
-    .cartao-box .cartao-titulo {
-        color: #40347b;
-        margin: 90px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        font-size: 50px;
+    .banco .pessoa-juridica{
+        max-width: 28%;
+        top: 85%;
+        right: 2%;
     }
     
-    .cartao-box .cartao-subtitulo {
-        color: #40347b;
-        margin: 5px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 40px;
+    #linha-info1{
+        height: 11%;
     }
     
-    .cartao-box .cartao-texto {
-        color: #3e3277;
+    #linha-info2{
+        height: 11%;
+        left: 7%;
+        top: 93%;
+    }
+    
+    .infos{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+    
+    .infos h1{
         font-size: 25px;
-        font-family: 'Roboto', sans-serif;
-        margin: 40px 75px 0px 50px;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .margin-box {
-        margin: 0px 0px 0px 250px;
-    }
-
-    .saiba-mais {
-        color: #40347b;
-        margin: 0px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
     }
     
-    .cartao-box .saiba-mais{
-        position: relative;
-        bottom: 0px;
-        top: 60px;
+    .infos h2{
+        line-height: 0px;
+        font-size: 22px;
+    }
+    
+    .infos p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+    
+    .infos a{
+        font-size: 15px;
+    }
+
+    .rodape h1{
+        font-size: 17px;
+    }
+    
+    .rodape-menu{
+        padding-left: 15px;
+    }
+
+    .rodape-menu a{
+        font-size: 15px;
+    }
+
+    .rodape-contato {
+        padding-top: 21px;
+        padding-left: 0px;
+    }
+
+    .rodape-contato p{
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 5px;
+    }
+
+    .rodape-contato img{
+        width: 85%;
+        padding-bottom: 10px;
+    }
+
+    .rodape-contato .list-inline>li {
+        margin-right: -15px;
+    }
+
+    .rodape-contato ul{
+        margin-bottom: 0px;
+    }
+    
+    .baixe-app{
+        padding-left: 12px;
+    }
+
+    .baixe-app img{
+        padding-bottom: 25px;
+        width: 90%;
+    }
+
+    .rodape-politicas{
+        padding-top: 70px;
+    }
+
+    .rodape-politicas h1{
+        font-size: 12px;
+    }
+
+    .rodape-politicas p{
+        font-size: 16px;
+        margin-left: 17px;
+    }
+
+    .rodape-politicas img{
+        margin-left: 60px;
+        width: 10%;
+    }
+
+    .rodape-logo img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 32%;
+    }
+
+    .rodape-endereco{
+        padding-top: 15px;
+        margin-left: 29px;
+        padding-bottom: 15px;
+    }
+
+    .rodape-endereco p{
+        font-size: 11px;
     }
 }
 
@@ -121,74 +356,64 @@ body {
         margin: 25px 0px 17px 0px
     }
     
-    .iphone-custom {
-        width: auto;
-        position:relative; 
-        left:0px; 
-        bottom:35px;
-        z-index: 1;
-    }
-
-    .img-cartao {
-        margin: 0px 0px 0px 235px;
-        width: 685px;
-        height: 543px;
-    }
-
-    .img-maquina {
-        margin: 0px 0px 0px -15px;
-        width: 682px;
-        height: 543px;
+    #linha-info2 {
+        left: 8%;
+        bottom: 92%;
+        top: -5%
     }
     
-    .cartao-box {
-        background-color: white;
-        width: 682px;
-        height: 543px;
-    }
-
-    .cartao-box .cartao-titulo {
-        color: #40347b;
-        margin: 90px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        font-size: 50px;
+    .infos{
+        padding-top: 50px;
+        padding-left: 50px;
     }
     
-    .cartao-box .cartao-subtitulo {
-        color: #40347b;
-        margin: 5px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 40px;
-    }
-    
-    .cartao-box .cartao-texto {
-        color: #3e3277;
+    .infos h1{
         font-size: 25px;
-        font-family: 'Roboto', sans-serif;
-        margin: 40px 75px 0px 50px;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .margin-box {
-        margin: 0px 0px 0px 250px;
-    }
-
-    .saiba-mais {
-        color: #40347b;
-        margin: 0px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
     }
     
-    .cartao-box .saiba-mais{
-        position: relative;
-        bottom: 0px;
-        top: 60px;
+    .infos h2{
+        line-height: 0px;
+        font-size: 22px;
     }
+    
+    .infos p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+    
+    .infos a{
+        font-size: 15px;
+    }
+
+    .rodape-menu{
+        padding-left: 90px;
+    }
+    
+    .rodape-contato {
+        padding-left: 55px;
+    }
+    
+    .baixe-app {
+        padding-left: 85px;
+        padding-top: 20px;
+    }
+    
+    .rodape-politicas {
+        padding-top: 85px;
+        padding-left: 25px;
+    }
+
+    .rodape-endereco{
+        padding-top: 38px;
+        margin-left: 0px;
+    }
+
+    .rodape-endereco p{
+        font-size: 18px;
+    }
+    
 }
 
 /* Medium */
@@ -205,79 +430,98 @@ body {
         font-size: 20px;
     }
     
-    .container-margin-custom{
-        margin: 0px -21px 0px 21px;
-    }
-
-    .iphone-custom {
-        width: auto;
-        position:relative; 
-        left:0px; 
-        bottom:35px;
-        z-index: 1;
-    }
-
-    .img-cartao {
-        margin: -28px 0px 0px -8px;
-        width: 685px;
-        height: 546px;
-    }
-
-    .img-maquina {
-        margin: 0px 0px 0px -15px;
-        width: 682px;
-        height: 543px;
-    }
-    
-    .cartao-box {
-        background-color: white;
-        width: 561px;
-        height: 544px;
-        margin: -26px 0px 0px -23px;
-    }
-
-    .cartao-box .cartao-titulo {
-        color: #40347b;
-        margin: 90px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        font-size: 45px;
-    }
-    
-    .cartao-box .cartao-subtitulo {
-        color: #40347b;
-        margin: 5px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+    .infos h1{
         font-size: 35px;
     }
     
-    .cartao-box .cartao-texto {
-        color: #3e3277;
-        font-size: 25px;
-        font-family: 'Roboto', sans-serif;
-        margin: 40px 75px 0px 50px;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .margin-box {
-        margin: 0px 0px 0px 7px;
-    }
-
-    .saiba-mais {
-        color: #40347b;
-        margin: 0px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
+    .infos h2{
+        line-height: 7px;
+        font-size: 25px
     }
     
-    .cartao-box .saiba-mais{
-        position: relative;
-        bottom: 0px;
-        top: 25px;
+    .infos p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
     }
+    
+    .infos a{
+        font-size: 17px;
+    }
+    
+    .rodape h1{
+        font-size: 19px;
+        color: white;
+        line-height: 35px;
+    }
+    
+    .rodape-menu {
+        padding-left: 30px;
+    }
+    
+    .rodape-menu a {
+        font-size: 15px;
+        color: white;
+        line-height: 35px;
+    }
+    
+    .rodape-contato {
+        padding-top: 21px;
+        padding-left: 0px;
+    }
+    
+    .rodape-contato p{
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+
+    .rodape-contato img{
+        width: 85%;
+    }
+
+    .baixe-app{
+        padding-left: 30px;
+    }
+
+    .baixe-app img{
+        padding-bottom: 25px;
+        width: 80%;
+    }
+
+    .rodape-politicas{
+        padding-top: 85px;
+    }
+
+    .rodape-politicas h1{
+        font-size: 17px;
+    }
+
+    .rodape-politicas p{
+        font-size: 18px;
+        margin-left: 41px;
+    }
+
+    .rodape-politicas img{
+        margin-left: 85px;
+        width: 13%;
+    }
+    
+    .rodape-logo{
+        margin-left: 60px;
+    }
+    
+    .rodape-logo img{
+        width: 75%
+    }
+    
+    .rodape-endereco{
+        padding-top: 38px;
+    }
+
+    .rodape-endereco p{
+        font-size: 15px;
+    }
+    
 }
 
 /* Large */
@@ -293,148 +537,19 @@ body {
     .navbar-default .navbar-nav>li>a{
         font-size: 20px;
     }
-   
-    .iphone-custom {
-        width: auto;
-        position:relative; 
-        left:0px; 
-        bottom:35px;
-        z-index: 1;
-    }
 
-    .img-cartao {
-        margin: 0px 0px 0px 235px;
-        width: 685px;
-        height: 543px;
-    }
-
-    .img-maquina {
-        margin: 0px 0px 0px -15px;
-        width: 682px;
-        height: 543px;
+    .banco .pessoa-fisica{
+        max-width: 19%;
+        position: absolute;
+        z-index: 100;
+        top: 85%;
+        right: 30%;
     }
     
-    .cartao-box {
-        background-color: white;
-        width: 682px;
-        height: 543px;
-    }
-
-    .cartao-box .cartao-titulo {
-        color: #40347b;
-        margin: 90px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        font-size: 50px;
-    }
     
-    .cartao-box .cartao-subtitulo {
-        color: #40347b;
-        margin: 5px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 40px;
-    }
     
-    .cartao-box .cartao-texto {
-        color: #3e3277;
-        font-size: 25px;
-        font-family: 'Roboto', sans-serif;
-        margin: 40px 75px 0px 50px;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .margin-box {
-        margin: 0px 0px 0px 250px;
-    }
-
-    .saiba-mais {
-        color: #40347b;
-        margin: 0px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-    }
-    
-    .cartao-box .saiba-mais{
-        position: relative;
-        bottom: 0px;
-        top: 60px;
-    }
-    
-    .rodape-mercosulbank{
-        color: white;
-        font-size: 24px;
-        margin: 50px 0px 0px -190px;
-    }
-
-    .rodape-faleconosco{
-        color: white;
-        font-size: 24px;
-        margin: 50px 0px 0px -210px;
-    }
-
-    .rodape-baixeoapp{
-        color: white;
-        font-size: 24px;
-        margin: 50px 0px 0px -80px;
-    }
-
-    .rodape-text-mercosulbank{
-        color: white;
-        font-size: 19px;
-        margin: 15px 0px 0px -45px;
-        text-align: left;
-        line-height: 2.0;
-        font-weight: 300;
-    }
-
-    .rodape-text-faleconosco{
-        color: white;
-        font-size: 15px;
-        margin: 15px 0px 0px -45px;
-        text-align: left;
-        line-height: 2.0;
-        font-weight: 300;
-    }
-
-    .icones-rodape{
-        margin: 0px 10px 0px 0px;
-        width: 35px;
-    }
-
-    .div-icones{
-        margin: 15px 0px 0px -165px;
-    }
-
-    .buttons-rodape{
-        margin: 25px 45px 0px 0px;
-    }
-    
-    .rodape-politicas{
-        color: white;
-        font-size: 21px;
-        margin: 140px 0px 0px 0px;
-    }
-
-    .rodape-politicas2{
-        color: white;
-        font-size: 21px;
-        margin: 0px 5px 0px 0px;
-    }
-
-    .rodape-endereco{   
-        color: white;
-        font-size: 19px;
-        margin: 63px 0px 0px -50px;
-    }
-
     .rodape-logo{
-        width: 295px;
+        padding-left: 80px;
     }
-
-    .rodape-logo-endereco{
-        margin: 0px 0px 20px 265px;
-    }
+    
 }

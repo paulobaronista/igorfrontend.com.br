@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,104 +39,131 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul id="#menuCenter" class="nav navbar-nav navbar-right navbar-mercosul">
                     <li><a class="active" href="">Home</a></li>
+                    <li><div id="linha" class="hidden-xs"></div></li>
                     <li><a href="">Pessoa física</a></li>
+                    <li><div id="linha" class="hidden-xs"></div></li>
                     <li><a href="">Pessoa jurídica</a></li>
+                    <li><div id="linha" class="hidden-xs"></div></li>
                     <li><a href="">Fale Conosco</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    
     <div class="container-fluid">
       <div class="row">
-        <img class="img-responsive center-block" src="images/banco.png">
+        <div class="container padding-off banco">
+        <img class="img-responsive center-block hidden-xs" src="images/banco.png">
+        <img class="img-responsive center-block visible-xs" src="images/bancomobile.png">
+        <a href="#"><img class="img-responsive pessoa-fisica" src="images/pessoa-fisica.png"></a>
+        <a href="#"><img class="img-responsive pessoa-juridica" src="images/pessoa-judirica.png"></a>
+        </div>
       </div>
-    </div>    
+    </div>  
     
-    <div class="container-fluid" style="height: 157px;">
+    <div class="container faixa">
       <div class="row">
-        <img class="img-responsive center-block iphone-custom faixa-iphone" src="images/faixa.png">
+        <img class="img-responsive" src="images/faixa.png">
+        <img class="img-responsive iphone" src="images/iphone.png">
       </div>
     </div>
 
-    <div class="container-fluid container-margin-custom">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-6">
-          <img class="img-responsive img-cartao" src="images/cartao.png">
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 img-responsive cartao-box">
-          <h1 class="cartao-titulo"> Cartão Internacional </h1>
-          <h2 class="cartao-subtitulo">Débito e Crédito</h2>
-          <p class="cartao-texto">Os melhores benefícios para usar em qualquer lugar do mundo, 
-          confira as vantagens de ter um cartão do <b><i>MercoSul Bank</i></b>, uma plataforma completa com soluções para transformar sua vida financeira.</p>
+    <div class="container-fluid padding-off" style="background-color: white;">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 padding-off">
+            <img class="img-responsive center-block" src="images/cartao.png" alt="">
+            <div id="linha-info1"></div>
           
-          <a href="#"><span class="saiba-mais"><u>SAIBA MAIS</u></span></a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 infos">
+            <h1>Cartão Internacional</h1>
+            <h2>Débito e Crédito</h2>
+            <p>Os melhores benefícios para usar em qualquer </br> lugar do mundo, confira as vantagens de ter </br> um cartão do <strong><i>MercoSul Bank</i></strong>, uma plataforma </br> completa com soluções para transformar sua </br>
+              vida financeira. </p>
+            <a href="#"><u>SAIBA MAIS</u></a>
+            
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 img-responsive cartao-box margin-box">
-          <h1 class="cartao-titulo"> Máquinas de cartões </h1>
-          <!-- <h2 class="cartao-subtitulo">Débito e Crédito</h2> -->
-          <p class="cartao-texto">Para você empreendedor multiplicar suas vendas utilize a nossa maquininha de cartão débito/crédito com as melhores taxas do mercado e um atendimento diferenciado. Mais uma solução financeira <b><i>MercoSul Bank</i></b>.</p>
-          
-          <a href="#"><span class="saiba-mais"><u>SAIBA MAIS</u></span></a>
-        </div>
-        
-        <div class="col-xs-12 col-sm-4 col-md-6">
-          <img class="img-responsive  img-maquina" src="images/maquinas.png">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 padding-off">
+            <div id="linha-info2"></div>
+            <img class="img-responsive center-block" src="images/maquinas.png" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 infos">
+            <h1>Máquinas de cartões</h1>
+            
+            <p>Para você empreendedor multiplicar suas </br> vendas utilize a nossa maquininha de cartão </br> débito/crédito com as melhores taxas do </br> mercado e um atendimento diferenciado. </br> Mais uma solução financeira <strong><i>MercoSul Bank</i></strong></p>
+            <a href="#"><u>SAIBA MAIS</u></a>
+          </div>
         </div>
       </div>
     </div>
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
-  <footer>
+ 
+  <footer class="rodape">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center">
-          <h1 class="rodape-mercosulbank"><b>MercoSul Bank</b></h1>
-          <p class="rodape-text-mercosulbank">Home <br> Pessoa Física <br> Pessoa jurídica </p>
+        <div class="col-xs-6 col-sm-6 col-md-3 rodape-menu">
+          <h1>MercoSul Bank</h1>
+          <a href="#">Home</a></br>
+          <a href="#">Pessoa física</a></br>
+          <a href="#">Pessoa jurídica</a>
         </div>
-        
-        <div class="col-md-3 text-center">  
-          <h1 class="rodape-faleconosco"><b>Fale conosco</b></h1>
-          <p class="rodape-text-faleconosco">Telefone: (11) 3845.8268<br> Whats Business : (11) 99662.8990 <br> email: contato@mercosulbank.com.br </p>
-          <div class="div-icones">
-          <a href='#'>
-            <img class="icones-rodape" src='images/icone-facebook.png'>
-          </a>
-          <a href='#'>
-            <img class="icones-rodape" src='images/icone-insta.png'>
-          </a>
-          <a href='#'>
-            <img class="icones-rodape" src='images/icone-linkedin.png'>
-          </a>
-          <a href='#'>
-            <img class="icones-rodape" src='images/icone-twitter.png'>
-          </a>
-          </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 rodape-contato">
+          <h1>Fale Conosco</h1>
+          <p class='hidden-xs'> <strong>Telefone:</strong> (11) 3845.8268</br><strong>Whats Business:</strong> (11) 99662.8990</br><strong>Email:</strong> contato@mercosulbank.com.br</p>
+          <p class='visible-xs'> <strong>Telefone:</strong></br> (11) 3845.8268</br><strong>Whats Business:</strong></br> (11) 99662.8990</br><strong>Email:</strong></br> contato@mercosulbank.com.br</p>
+          <ul class='list-inline'>
+            <li>
+              <a href='#'>
+                <img src="images/icone-facebook.png" alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <img src="images/icone-insta.png" alt="Insta">
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <img src="images/icone-linkedin.png" alt="Linkedin">
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <img src="images/icone-twitter.png" alt="Twitter">
+              </a>
+            </li>
+          </ul>
         </div>
-        
-        <div class="col-md-3 text-center">  
-          <h1 class="rodape-baixeoapp"><b>Baixe o app</b></h1>
-          <a href="#"><img class="buttons-rodape" src="images/googleplay.png"></a>
-          <a href="#"><img class="buttons-rodape" src="images/appstore.png"></a>
+        <div class="col-xs-6 col-sm-6 col-md-3 baixe-app">
+          <h1>Baixe o app</h1>
+          <a href="#"><img src="images/googleplay.png" alt="Googleplay"></a>
+          <a href="#"><img src="images/appstore.png" alt="Appstore"></a>
         </div>
-        
-        <div class="col-md-3 text-center">  
-          <h1 class="rodape-politicas"> POLÍTICAS CORPORATIVAS </h1>
-          <h1 class="rodape-politicas2"><i>MercoSul Bank</i></h1>
-          <img src="images/seta.png" style="margin-top: 15px">
+        <div class="col-xs-6 col-sm-6 col-md-3 rodape-politicas">
+          <h1>POLÍTICAS CORPORATIVAS</h1>
+          <p><i>MercoSul Bank</i></p>
+          <img src="images/seta.png" alt="">
         </div>
       </div>
-    </div>
-    <div class="row rodape-logo-endereco">
-      <div class="col-md-9 col-md-push-3">
-        <p class="rodape-endereco">Rua Fidêncio Ramos, nº 100, 2º andar, Edifício Setim Tower - Bairro Vila Olímpia, São Paulo - SP - CEP 04551-010.</p>
+      <div class="row">
+        <div class="col-sm-8 col-sm-push-4 col-md-8 col-md-push-4 rodape-endereco text-center">
+          <p class="hidden-sm">Rua Fidêncio Ramos, nº 100, 2º andar, Edifício Setim Tower - Bairro Vila Olímpia, São Paulo - SP - CEP 04551-010.</p>
+          <p class="visible-sm">Rua Fidêncio Ramos, nº 100, 2º andar, Edifício Setim Tower </br class="visible-sm">Bairro Vila Olímpia, São Paulo - SP - CEP 04551-010.</p>
       </div>
-      <div class="col-md-3 col-md-pull-9 rodape-logo"><img src="images/logo-mercosul2.png"></div>
+        
+        <div class="col-sm-4 col-sm-pull-8 col-md-4 col-md-pull-8 rodape-logo">
+          <img class="img-responsive" src="images/logo-mercosul2.png" alt="">
+        </div>
+        
     </div>
-  </footer>
+  </footer>  
+
 </html>
