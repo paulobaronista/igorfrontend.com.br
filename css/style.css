@@ -211,11 +211,20 @@ body {
     .menu-mercosul .navbar-brand {
         padding: 10px 0px 10px 10px;
     }
+    
     .menu-mercosul .navbar-brand .img-responsive {
-        width: 60%;
-        margin: 0px 0px 0px -6px
+        width: 50%;
+        margin: 0px 0px 0px 0px
     }
     
+    .navbar-header .navbar-toggle{
+        margin-top: 22px;
+    }
+
+    .navbar-mercosul{
+        margin: 0px 
+    }
+
     .banco .pessoa-fisica{
         max-width: 25%;
     }
